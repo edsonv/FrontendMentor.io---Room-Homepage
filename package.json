@@ -1,0 +1,22 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Room homepage coding challenge](preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edsonv/FrontendMentor.io---Room-Homepage.git"
+  },
+  "author": "Edson J. Vargas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edsonv/FrontendMentor.io---Room-Homepage/issues"
+  },
+  "homepage": "https://github.com/edsonv/FrontendMentor.io---Room-Homepage#readme",
+  "dependencies": {
+    "sass": "^1.91.0"
+  }
+}

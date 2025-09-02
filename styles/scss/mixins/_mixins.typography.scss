@@ -1,0 +1,14 @@
+@use "../tokens/tokens.typography" as *;
+
+@mixin text-preset($name) {
+  $preset: map.get($text-presets, $name);
+
+  @if $preset {
+    font-size: map-get($preset, font-size);
+    line-height: map-get($preset, line-height);
+    letter-spacing: map-get($preset, letter-spacing);
+    font-weight: map-get($preset, font-weight);
+  } @else {
+    @warn "No text preset found for `#{$name}`.";
+  }
+}
