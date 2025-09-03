@@ -215,13 +215,13 @@ body {
 }
 .header > .logo_container {
   order: 1;
-  columns: 2/span 1;
+  grid-column: 2/span 1;
   justify-self: center;
 }
 .header .nav-toggle {
   background: none;
   border: none;
-  columns: 1/span 1;
+  grid-column: 1/span 1;
   justify-self: start;
   cursor: pointer;
 }
@@ -347,7 +347,7 @@ body {
   }
   .header .nav-toggle {
     display: none;
-    columns: unset;
+    grid-column: unset;
   }
   .header > .main-nav {
     position: initial;
