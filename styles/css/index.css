@@ -366,8 +366,14 @@ body {
     grid-column: 1/span 2;
   }
   .hero > .hero__media > .hero__controls {
-    right: -484px;
+    right: -420px;
     bottom: 3px;
+  }
+  .hero > .hero__media > .hero__controls > .control {
+    padding: 32px;
+  }
+  .hero > .hero__media > .hero__controls > .control > img {
+    width: 100%;
   }
   .hero > .hero__media > picture > img {
     width: auto;
@@ -378,7 +384,7 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 8px;
-    margin-top: -64px;
+    margin-top: -50px;
   }
   .about {
     display: grid;

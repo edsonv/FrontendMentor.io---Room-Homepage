@@ -247,8 +247,14 @@ body {
     > .hero__media {
       grid-column: 1 / span 2;
       > .hero__controls {
-        right: -484px;
+        right: -420px;
         bottom: 3px;
+        > .control {
+          padding: variables.$spacing-400;
+          > img {
+            width: 100%;
+          }
+        }
       }
       > picture > img {
         width: auto;
@@ -260,7 +266,7 @@ body {
       flex-direction: column;
       justify-content: center;
       gap: 8px;
-      margin-top: -64px;
+      margin-top: -50px;
     }
   }
 
