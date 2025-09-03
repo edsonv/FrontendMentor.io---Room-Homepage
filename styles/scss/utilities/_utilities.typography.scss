@@ -4,7 +4,7 @@
 
 @mixin generate-text-utilities($bps, $presets, $prefix: "text") {
   @each $name, $preset in $presets {
-    .#{prefix}-#{$name} {
+    .#{$prefix}-#{$name} {
       @include text-preset($name);
     }
   }
