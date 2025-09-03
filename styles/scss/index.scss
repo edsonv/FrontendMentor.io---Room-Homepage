@@ -66,14 +66,14 @@ body {
   z-index: 100;
   > .logo_container {
     order: 1;
-    columns: 2 / span 1;
+    grid-column: 2 / span 1;
     justify-self: center;
   }
 
   .nav-toggle {
     background: none;
     border: none;
-    columns: 1 / span 1;
+    grid-column: 1 / span 1;
     justify-self: start;
     cursor: pointer;
   }
@@ -225,7 +225,7 @@ body {
 
     .nav-toggle {
       display: none;
-      columns: unset;
+      grid-column: unset;
     }
 
     > .main-nav {
