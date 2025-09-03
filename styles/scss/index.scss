@@ -266,7 +266,7 @@ body {
 
   .about {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 30vw 40vw 30vw;
     margin-top: -3px;
   }
 }
