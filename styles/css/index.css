@@ -386,7 +386,6 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 8px;
-    margin-top: -30px;
     padding: 92px;
   }
   .about {
