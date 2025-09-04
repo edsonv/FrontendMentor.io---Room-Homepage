@@ -342,6 +342,7 @@ body {
   .header {
     display: flex;
     padding: 16px 64px;
+    width: auto;
   }
   .header > .logo_container {
     order: 0;
@@ -385,7 +386,7 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 8px;
-    margin-top: -40px;
+    margin-top: -30px;
     padding: 92px;
   }
   .about {
