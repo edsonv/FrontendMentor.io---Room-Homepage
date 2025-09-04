@@ -385,6 +385,7 @@ body {
     justify-content: center;
     gap: 8px;
     margin-top: -45px;
+    padding: 92px;
   }
   .about {
     display: grid;
