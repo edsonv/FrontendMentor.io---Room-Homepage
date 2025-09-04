@@ -384,12 +384,15 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 8px;
-    margin-top: -50px;
+    margin-top: -45px;
   }
   .about {
     display: grid;
-    grid-template-columns: 30vw 40vw 30vw;
+    grid-template-columns: 31vw 38vw 31vw;
     margin-top: -3px;
+  }
+  .about > .about__content {
+    padding: 64px 32px;
   }
 }
 
