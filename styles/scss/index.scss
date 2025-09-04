@@ -190,7 +190,7 @@ body {
     }
     > .hero__media > .hero__controls {
       > .control {
-        padding: variables.$spacing-600;
+        padding: variables.$spacing-400 variables.$spacing-800;
         > img {
           width: 100%;
         }
