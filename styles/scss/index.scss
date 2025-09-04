@@ -219,6 +219,8 @@ body {
 @media screen and (min-width: 1440px) {
   .header {
     display: flex;
+    padding: 16px 64px;
+
     > .logo_container {
       order: 0;
     }
