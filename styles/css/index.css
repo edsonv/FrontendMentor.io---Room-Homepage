@@ -264,12 +264,13 @@ body {
 }
 .hero > .hero__media > .hero__controls > .control {
   cursor: pointer;
-  background: hsl(0, 0%, 0%);
+  background-color: hsl(0, 0%, 0%);
   border: none;
   padding: 16px 16px;
+  transition: background-color 0.5s ease;
 }
 .hero > .hero__media > .hero__controls > .control:hover {
-  background: hsl(0, 0%, 27%);
+  background-color: hsl(0, 0%, 27%);
 }
 .hero > .hero__media > .hero__controls > .control > img {
   width: 60%;
@@ -292,12 +293,14 @@ body {
   text-decoration: none;
   color: hsl(0, 0%, 0%);
   text-transform: uppercase;
+  transition: color 0.5s ease;
 }
 .hero > .hero__content > .hero__cta > a:hover {
   color: hsl(0, 0%, 63%);
 }
 .hero > .hero__content > .hero__cta > a:hover > img {
   opacity: 0.3;
+  transition: opacity 0.5s ease;
 }
 
 .about > .about__content {
@@ -386,7 +389,6 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 8px;
-    margin-top: -30px;
     padding: 92px;
   }
   .about {
