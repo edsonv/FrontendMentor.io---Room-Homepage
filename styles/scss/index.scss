@@ -121,11 +121,12 @@ body {
     display: flex;
     > .control {
       cursor: pointer;
-      background: variables.$black;
+      background-color: variables.$black;
       border: none;
       padding: variables.$spacing-200 variables.$spacing-200;
+      transition: background-color 0.5s ease;
       &:hover {
-        background: variables.$grey-800;
+        background-color: variables.$grey-800;
       }
       > img {
         width: 60%;
@@ -149,10 +150,12 @@ body {
         text-decoration: none;
         color: variables.$black;
         text-transform: uppercase;
+        transition: color 0.5s ease;
         &:hover {
           color: variables.$grey-500;
           > img {
             opacity: 0.3;
+            transition: opacity 0.5s ease;
           }
         }
       }
